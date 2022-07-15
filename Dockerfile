@@ -1,4 +1,4 @@
-FROM jboss/keycloak:latest
+FROM quay.io/keycloak/keycloak:18.0.2
 
 COPY ./themes/inclusion-connect/ /opt/jboss/keycloak/themes/inclusion-connect/
 
